@@ -20,5 +20,5 @@ jobs:
 
       - name: Build and push Docker image
         run: |
-          docker build -t punkyard/bolt.diy:latest .
-          docker push punkyard/bolt.diy:latest
+          docker build -t punkyard/bolt.diy:0.0.5 .
+          docker push punkyard/bolt.diy:0.0.5
